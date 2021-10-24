@@ -242,3 +242,77 @@ h1, h2, h3, h4, h5, h6, p, figure, figcaption, ul, img {
   margin-bottom: 40px;
 }
 
+/*---------modules page----------*/
+.modules-container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.modules-logo {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.arrow-wrapper  {
+  margin: 0;
+  margin-bottom: 25px;
+  padding-left: 50px;
+  background-image: url(/img/Arrow\ 1.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.arrow-back-svg {
+  font-size: 20px;
+  font-weight: 400;
+  color: #3f2aff;
+}
+
+.modules-title {
+  margin: 0;
+  margin-bottom: 50px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #3f2aff;
+}
+
+.card-title {
+}
+.modues-list {
+}
+
+.modules-card {
+}
+
+
+.card-illustration {
+}
+
+.card-illustration-1 {
+}
+
+.card-illustration-2 {
+}
+
+.card-illustration-3 {
+}
+
+.card-illustration-4 {
+}
+
+.card-list {
+}
+
+.card-number {
+}
+
+
+.card-item {
+}
+
+.button-wrapper {
+}
+
+.btn-more {
+}
