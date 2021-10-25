@@ -278,11 +278,45 @@ h1, h2, h3, h4, h5, h6, p, figure, figcaption, ul, img {
 }
 
 .card-title {
+  padding-left: 25px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #3f2aff;
 }
+
+.card-item {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+}
+
 .modues-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 50px;
+  padding-left: 165px;
+  list-style-type: none;
 }
 
 .modules-card {
+  position: relative;
+  width: 572px;
+  height: 505px;
+  box-shadow: 0 0 15px 5px #ebebeb;
+}
+
+.modules-card:nth-child(even) {
+  margin-right: 25px;
+}
+
+
+
+
+.card-list {
+  margin: 0;
+  padding-left: 25px;
+  list-style-type: none;
 }
 
 
@@ -301,15 +335,20 @@ h1, h2, h3, h4, h5, h6, p, figure, figcaption, ul, img {
 .card-illustration-4 {
 }
 
-.card-list {
-}
+
 
 .card-number {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 45px;
+  font-size: 40px;
+  color: #eaeaea;
+
 }
 
 
-.card-item {
-}
+
 
 .button-wrapper {
 }
