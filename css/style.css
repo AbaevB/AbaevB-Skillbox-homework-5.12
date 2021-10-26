@@ -286,6 +286,7 @@ h1, h2, h3, h4, h5, h6, p, figure, figcaption, ul, img {
 
 .card-item {
   font-size: 20px;
+  line-height: 33px;
   font-weight: 400;
   color: #333;
 }
@@ -296,7 +297,6 @@ h1, h2, h3, h4, h5, h6, p, figure, figcaption, ul, img {
   margin: 0;
   padding: 0;
   margin-bottom: 50px;
-  /*padding-left: 165px;*/
   list-style-type: none;
 }
 
@@ -307,12 +307,9 @@ h1, h2, h3, h4, h5, h6, p, figure, figcaption, ul, img {
   box-shadow: 0 0 15px 5px #ebebeb;
 }
 
-.modules-card:nth-child(even) {
+.modules-card:nth-child(odd) {
   margin-right: 25px;
 }
-
-
-
 
 .card-list {
   margin: 0;
@@ -320,20 +317,40 @@ h1, h2, h3, h4, h5, h6, p, figure, figcaption, ul, img {
   list-style-type: none;
 }
 
+.modules-card:not(:last-child) {
+  margin-bottom: 25px;
+}
 
 .card-illustration {
+  margin: 0;
+  margin-bottom: 25px;
+  width: 100%;
+  min-height: 180px;
+
 }
 
 .card-illustration-1 {
+  background-image: url(/img/illustration-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card-illustration-2 {
+  background-image: url(/img/illustration-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card-illustration-3 {
+  background-image: url(/img/illustration-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card-illustration-4 {
+  background-image: url(/img/illustration-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
@@ -352,7 +369,15 @@ h1, h2, h3, h4, h5, h6, p, figure, figcaption, ul, img {
 
 
 .button-wrapper {
+  text-align: center;
 }
 
 .btn-more {
+  width: 274px;
+  height: 70px;
+  border: 2px solid #3F2AFF;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3f2aff;
+  cursor: pointer;
 }
