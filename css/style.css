@@ -290,12 +290,13 @@ h1, h2, h3, h4, h5, h6, p, figure, figcaption, ul, img {
   color: #333;
 }
 
-.modues-list {
+.modules-list {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  padding: 0;
   margin-bottom: 50px;
-  padding-left: 165px;
+  /*padding-left: 165px;*/
   list-style-type: none;
 }
 
